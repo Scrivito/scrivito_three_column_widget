@@ -1,6 +1,6 @@
-# Scrivito Two Columns
+# Scrivito Three Columns
 
-This Gem adds a two-column grid widget to your Scrivito app. You can fill both columns with other widgets.
+This Gem adds a three-column grid widget to your Scrivito app. You can fill the columns with other widgets.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ Use Bootstrap in your Rails App. (Tested with Bootstrap 3.2)
 
 Add the gem to your Gemfile:
 
-    gem 'scrivito_two_columns'
+    gem 'scrivito_three_column_widget'
 
 Run bundle:
 
@@ -30,7 +30,7 @@ Switch to your Workspace 'rtc' and follow below Steps for Usage. If you are happ
 
 ## Steps for Usage
 
-- Insert the Widget 'Two Columns' somewhere and put a widget into both columns that become visible.
+- Insert the Widget 'Three Columns' somewhere and put a widget into each column that becomes visible.
 - Edit the Widget Properties to modify the column widths.
 
 
