@@ -1,3 +1,3 @@
 module ScrivitoThreeColumnWidget
-  VERSION = "0.0.60"
+  VERSION = "0.65.0"
 end
