@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "This Widget allows you to use a three-column layout and fill it with widgets."
   s.license     = "MIT"
 
-  s.files = Dir["{app,lib,scrivito}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,lib,scrivito}/**/*", "LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "scrivito"
 end
