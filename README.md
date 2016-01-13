@@ -1,10 +1,10 @@
-# Scrivito Three Columns
+# ScrivitoThreeColumnWidget
 
-This Gem adds a three-column grid widget to your Scrivito app. You can fill the columns with other widgets.
+This gem adds a Scrivito widget for dividing pages and page sections into three columns to your app.
 
 ## Prerequisites
 
-Use Bootstrap in your Rails App.
+Requires Bootstrap in your Rails app.
 
 ## Installation
 
@@ -14,4 +14,4 @@ Add the gem to your Gemfile:
 
 ## Customization
 
-We recomment to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) for best usability.
+We recommend to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) which provides nicer controls.
