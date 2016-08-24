@@ -1,7 +1,15 @@
-<%= scrivito_details_for 'Width for column 1' do %>
+<%= scrivito_details_for t('scrivito_three_column_widget.details.column_1_width', default: 'Width for column 1') do %>
   <%= scrivito_tag(:div, widget, :column_1_width) %>
 <% end %>
 
-<%= scrivito_details_for 'Width for column 2' do %>
+<%= scrivito_details_for t('scrivito_three_column_widget.details.column_2_width', default: 'Width for column 2') do %>
   <%= scrivito_tag(:div, widget, :column_2_width) %>
+<% end %>
+
+<%= scrivito_details_for t('scrivito_three_column_widget.details.grid_size', default: 'Grid Size') do %>
+  <%= scrivito_tag(:div, widget, :grid_size) %>
+<% end %>
+
+<%= scrivito_details_for t('scrivito_three_column_widget.details.keep_columns', default: 'Show columns on mobile') do %>
+  <%= scrivito_tag(:div, widget, :keep_columns) %>
 <% end %>
