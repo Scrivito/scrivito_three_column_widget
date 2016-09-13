@@ -23,4 +23,20 @@ class ThreeColumnWidget < Widget
   def device_class
     keep_columns == 'Yes' ? 'xs' : 'md'
   end
+
+  def self.gutter_size_button_images
+    elems = {}
+    ['small','default','large'].each do |elem|
+      elems[elem] = ActionController::Base.helpers.image_tag "widgets/three_column_#{elem}_gutter.png"
+    end
+    return elems
+  end
+
+  def self.column_on_mobile_button_images
+    elems = {}
+    ['Yes','No'].each do |elem|
+      elems[elem] = ActionController::Base.helpers.image_tag "widgets/three_column_on_mobile_#{elem.downcase}.png"
+    end
+    return elems
+  end
 end
